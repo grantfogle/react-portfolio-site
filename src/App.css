@@ -21,6 +21,10 @@
   opacity: .8;
 }
 
+h1 {
+  border-bottom: 1px solid blue;
+}
+
 main{
   min-height: 80vh;
   margin-top: 2em;

@@ -14,7 +14,7 @@ class Home extends Component {
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="side-bar-info">
-                                <h1 className="text-primary">Hey, I'm Grant</h1>
+                                <h1 className="text-primary">Full Stack Developer</h1>
                                 <h4>Full Stack Developer</h4>
                                 <p>Developer, skier, shredder <br></br>I'm just out here havin' fun.</p>
                             </div>
