@@ -22,12 +22,13 @@
 }
 
 h1 {
-  border-bottom: 1px solid blue;
+  padding-bottom: 1em;
 }
 
 main{
   min-height: 80vh;
   margin-top: 2em;
+  
 }
 
 .home-image img {
@@ -39,7 +40,6 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-left: 1px solid gray;
   padding-left: 3em;
 }
 
