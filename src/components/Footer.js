@@ -13,7 +13,7 @@ class Footer extends Component {
                     <div className="row">
                         <div className="col-sm-12">
                             <a href="https://github.com/grantfogle/"><FontAwesomeIcon icon={["fab", "github"]} color="#fff" size="4x" className="icons" /></a>
-                            <a href="https://www.linkedin.com/in/grant-fogle-092b8698/"><FontAwesomeIcon icon={["fab", "linkedin"]} color="#fff" size="4x" className="icons" /></a>
+                            <a href="https://www.linkedin.com/in/grantfogle/"><FontAwesomeIcon icon={["fab", "linkedin"]} color="#fff" size="4x" className="icons" /></a>
                             <a href="mailto:grantjfogle@gmail.com"><FontAwesomeIcon icon={faEnvelope} color="#fff" size="lg" size="4x" className="icons" /></a>
                         </div>
                     </div>
