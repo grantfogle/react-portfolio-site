@@ -12,13 +12,13 @@ class Footer extends Component {
                 <div className="text-center">
                     <div className="row">
                         <div className="col-sm-12">
-                            <a href="https://github.com/grantfogle/"><FontAwesomeIcon icon={["fab", "github"]} color="#fff" size="4x" className="icons" /></a>
-                            <a href="https://www.linkedin.com/in/grantfogle/"><FontAwesomeIcon icon={["fab", "linkedin"]} color="#fff" size="4x" className="icons" /></a>
-                            <a href="mailto:grantjfogle@gmail.com"><FontAwesomeIcon icon={faEnvelope} color="#fff" size="lg" size="4x" className="icons" /></a>
+                            <a href="https://github.com/grantfogle/"><FontAwesomeIcon icon={["fab", "github"]} color="#fff" size="3x" className="icons" /></a>
+                            <a href="https://www.linkedin.com/in/grantfogle/"><FontAwesomeIcon icon={["fab", "linkedin"]} color="#fff" size="3x" className="icons" /></a>
+                            <a href="mailto:grantjfogle@gmail.com"><FontAwesomeIcon icon={faEnvelope} color="#fff" size="3x" className="icons" /></a>
                         </div>
                     </div>
                 </div>
-                <div className="footer-copyright text-center text-white py-3">© 2018 Copyright</div>
+                <div className="footer-copyright text-center text-white py-3">© 2019 Copyright</div>
             </footer >
         );
     }
