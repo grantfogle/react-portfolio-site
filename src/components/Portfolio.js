@@ -21,7 +21,7 @@ class Portfolio extends Component {
                                 <h4>Redux Reddit Clone</h4>
                                 <p><i>Tech used: React, Redux, Ajax, React Bootstrap</i> </p>
                                 <p>This project is built as a clone to reddit. It allow users to upvote and downvote, add a post, add a comment, search by posts, and sort by total votes.</p>
-                                <p><a href="https://fogle-redux-reddit.herokuapp.com/">Deployed Site</a></p>
+                                <p><a href="http://fogle-redux-reddit.surge.sh/">Deployed Site</a></p>
                                 <p><a href="https://github.com/grantfogle/redux-unit-checkpoint">View on Github</a></p>
                             </div>
                             <div className="row portfolio-row">
@@ -32,7 +32,7 @@ class Portfolio extends Component {
                                     <h4>Galvanize Inbox</h4>
                                     <p><i>Tech used: React, Ajax, Bootstrap, Express, Postgresql</i></p>
                                     <p>A Gmail clone. Allows users to favorite emails, add/remove labels, create a new post, remove posts.</p>
-                                    <p><a href="https://fogle-react-inbox.herokuapp.com/">Deployed Site</a></p>
+                                    <p><a href="http://fogle-react-inbox.surge.sh/">Deployed Site</a></p>
                                     <p><a href="https://github.com/grantfogle/react-inbox">View on Github</a></p>
                                 </div>
                             </div>
