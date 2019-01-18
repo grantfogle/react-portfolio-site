@@ -4,6 +4,7 @@ import reduxReddit from "../images/redux-reddit.png";
 import reactInbox from "../images/react-inbox.png";
 import galvanizeReads from "../images/galvanize-reads.png";
 import pixelArtMaker from "../images/pixel-art-maker.png";
+import inQuizlit from "../images/inQuizlitHome.png";
 
 class Portfolio extends Component {
 
@@ -12,17 +13,25 @@ class Portfolio extends Component {
             <main>
                 <div className="">
                     <div className="container">
-                        <h1>Projects</h1>
+                        <div className="row">
+                            <div className="col-sm-12">
+                                <h1>Projects</h1>
+                            </div>
+                        </div>
                         <div className="row portfolio-row">
                             <div className="col-lg-6 col-md-12">
-                                <img className="portfolio-image" src={reactInbox} />
+                                <img className="portfolio-image" src={inQuizlit} />
                             </div>
                             <div className="col-lg-6 col-md-12">
-                                <h4>Inquizlit</h4>
-                                <p><i>Angular, Bootstrap, Express, PostgreSQL</i></p>
-                                <p>A Gmail clone. Allows users to favorite emails, add/remove labels, create a new post, remove posts.</p>
-                                <p><a href="http://fogle-react-inbox.surge.sh/">Deployed Site</a></p>
-                                <p><a href="https://github.com/grantfogle/react-inbox">View on Github</a></p>
+                                <h4>inQuizlit</h4>
+                                <p><i>Angular, Bootstrap, Express, PostgreSQL, Knex.js</i></p>
+                                <p>inQuizlit is a full stack application designed and built to allow fellow
+                                    classmates the opportunity to ask and share programming related questions
+                                    to help prepare for upcoming interviews. It was completed as a group project
+                                    utilizing an Agile workflow.</p>
+                                <p><a href="http://inquizlit.surge.sh/">Deployed Site</a></p>
+                                <p><a href="https://github.com/jimbucktoo/inquizlit-frontend/">Github Front End</a></p>
+                                <p><a href="https://github.com/keschaefer/inquizlit-end">Github Back End</a></p>
                             </div>
                         </div>
                         <div className="row portfolio-row">
@@ -67,7 +76,7 @@ class Portfolio extends Component {
                             </div>
                             <div className="col-lg-6 col-md-12">
                                 <h4>Galvanize Reads</h4>
-                                <p><i>Firebase, Javascript, Material Ui</i></p>
+                                <p><i>Firebase, Javascript, Material UI, HTML, CSS</i></p>
                                 <p>Allows users to search for a book by title or author and sends a fetch request to the Goodreads api. It then allows users to add the title to a reading list.</p>
                                 <p><a href="https://galvanize-reads-b65ee.firebaseapp.com/">Deployed Site</a></p>
                                 <p><a href="https://github.com/grantfogle/galvanize-eats">View on Github</a></p>

@@ -59,8 +59,8 @@ nav.navbar {
 }
 
 h1 {
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: .5em;
+  margin-top: .5em;
   text-align: center;
   font-weight: 200;
   letter-spacing: .02em;
@@ -94,23 +94,37 @@ main {
   margin-bottom: 1em;
   margin-top: 1em;
 }
+.home-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .home-content {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 3em;
-  /* margin-bottom: 2em; */
+}
+
+.home-content h2 {
+  text-align: center;
+  margin-bottom: 1em;
+
 }
 .home-content h4 {
   width: 100%;
   text-align: center;
 }
+
+.home-content-inner {
+  width: 90%;
+  padding: 1em;
+}
 .home-content p {
   width: 100%;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .cta {
@@ -133,12 +147,7 @@ main {
   width: 100%;
   height: auto;
   margin: 5px;
-  /* transition: opacity .5s;   */
 }
-
-/* .portfolio-image:hover {
-  opacity: .5;
-} */
 
 .icons {
   margin: 0 .2em;
