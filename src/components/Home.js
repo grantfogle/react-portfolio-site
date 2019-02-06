@@ -15,7 +15,7 @@ class Home extends Component {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="home-image">
-                                <img src="https://media.licdn.com/dms/image/C4E03AQH2I7CUuhnm3A/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=QX5KKwJMv-oHLx7-nWb0iJYCCCd3adI6D08XuhwFA-c" />
+                                <img src="https://media.licdn.com/dms/image/C4E03AQH2I7CUuhnm3A/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=DRT36RxWo63m_zGLZgQIwIAnapqPILa6c8kZz3eCbIU" />
                             </div>
                         </div>
                     </div>
