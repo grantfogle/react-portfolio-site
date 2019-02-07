@@ -5,6 +5,7 @@ import reactInbox from "../images/react-inbox.png";
 import galvanizeReads from "../images/galvanize-reads.png";
 import pixelArtMaker from "../images/pixel-art-maker.png";
 import inQuizlit from "../images/inQuizlitHome.png";
+import Flor from "../images/flor-homescreen.png";
 
 class Portfolio extends Component {
 
@@ -20,6 +21,21 @@ class Portfolio extends Component {
                         </div>
                         <div className="row portfolio-row">
                             <div className="col-lg-6 col-md-12">
+                                <img className="portfolio-image" src={Flor} />
+                            </div>
+                            <div className="col-lg-6 col-md-12">
+                                <h4>Flor</h4>
+                                <p><i>React Native, Node, Express, PostgreSQL, Knex, TensorFlow, Vize.ai</i></p>
+                                <p>Flor utilizes the camera in your mobile device to identify wildflowers.
+                                    It uses the machine learning platform Vize.ai to train for image recognition
+                                    and receive and test photos.</p>
+                                <p><a href="https://www.youtube.com/watch?v=l7ysO3HF318">Demo Video</a></p>
+                                <p><a href="https://github.com/grantfogle/flor-frontend">Github Front-end</a></p>
+                                <p><a href="https://github.com/grantfogle/flor-backend">Github Back-end</a></p>
+                            </div>
+                        </div>
+                        <div className="row portfolio-row">
+                            <div className="col-lg-6 col-md-12">
                                 <img className="portfolio-image" src={inQuizlit} />
                             </div>
                             <div className="col-lg-6 col-md-12">
@@ -30,8 +46,8 @@ class Portfolio extends Component {
                                     to help prepare for upcoming interviews. It was completed as a group project
                                     utilizing an Agile workflow.</p>
                                 <p><a href="http://inquizlit.surge.sh/">Deployed Site</a></p>
-                                <p><a href="https://github.com/jimbucktoo/inquizlit-frontend/">Github Front End</a></p>
-                                <p><a href="https://github.com/keschaefer/inquizlit-end">Github Back End</a></p>
+                                <p><a href="https://github.com/jimbucktoo/inquizlit-frontend/">Github Front-end</a></p>
+                                <p><a href="https://github.com/keschaefer/inquizlit-end">Github Back-end</a></p>
                             </div>
                         </div>
                         <div className="row portfolio-row">
