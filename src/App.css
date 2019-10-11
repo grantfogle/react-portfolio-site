@@ -87,8 +87,7 @@ main {
 }
 
 .home-image img {
-  height: 400px;
-  /* width: 200px; */
+  max-width: 400px;
   border-radius: 2%;
 }
 .home-flex {

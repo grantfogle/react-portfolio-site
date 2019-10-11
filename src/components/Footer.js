@@ -8,17 +8,17 @@ import '../App.css';
 class Footer extends Component {
     render() {
         return (
-            <footer className="page-footer">
-                <div className="text-center">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <a href="https://github.com/grantfogle/"><FontAwesomeIcon icon={["fab", "github"]} color="#fff" size="3x" className="icons" /></a>
-                            <a href="https://www.linkedin.com/in/grantfogle/"><FontAwesomeIcon icon={["fab", "linkedin"]} color="#fff" size="3x" className="icons" /></a>
-                            <a href="mailto:grantjfogle@gmail.com"><FontAwesomeIcon icon={faEnvelope} color="#fff" size="3x" className="icons" /></a>
+            <footer className='page-footer'>
+                <div className='text-center'>
+                    <div className='row'>
+                        <div className='col-sm-12'>
+                            <a href='https://github.com/grantfogle/'><FontAwesomeIcon icon={['fab', 'github']} color='#fff' size='3x' className='icons' /></a>
+                            <a href='https://www.linkedin.com/in/grantfogle/'><FontAwesomeIcon icon={['fab', 'linkedin']} color='#fff' size='3x' className='icons' /></a>
+                            <a href='mailto:grantjfogle@gmail.com'><FontAwesomeIcon icon={faEnvelope} color='#fff' size='3x' className='icons' /></a>
                         </div>
                     </div>
                 </div>
-                <div className="footer-copyright text-center text-white py-3">© 2019 Copyright</div>
+                <div className='footer-copyright text-center text-white py-3'>© 2019 Copyright</div>
             </footer >
         );
     }
