@@ -23,7 +23,6 @@ class Header extends Component {
                                 <Link to="/" className="navigation-link">
                                     <li className="nav-item">
                                         <div className="nav-link text-white" id="home-element" href="#">Home</div>
-
                                     </li>
                                 </Link>
                                 <Link to="/projects" className="navigation-link">
